@@ -44,7 +44,7 @@ opkg install wget-ssl
 
 ### Add Src ###
 
-wget -O passwall.pub https://master.dl.sourceforge.net/project/openwrt-passwall-build/passwall.pub
+wget -O passwall.pub https://master.dl.sourceforge.net/project/openwrt-passwall-build/passwall.pub?viasf=1
 
 opkg-key add passwall.pub
 
